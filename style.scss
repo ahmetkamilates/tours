@@ -1,0 +1,56 @@
+@import "nav";
+@import "header";
+@import "events";
+@import "explore";
+@import "tours";
+:root{
+    --primary-color:#fc036b;
+    --secondary-color:#484872;
+    --thirdy-color:#49497e;
+    --text-color:whitesmoke;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: bold;
+    }
+    
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.btn{
+
+    background-color: var(--primary-color);
+   padding: 8px 15px;
+   border-radius: 20px;
+   color: var(--text-color);
+   text-decoration: none;
+}
+
+.btn:hover{
+    background-color: var(--text-color);
+    color: var(--primary-color);
+
+}
+
+
+img{
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+.line{
+    background-color: var(--primary-color);
+    width: 150px;
+    height: 5px;
+    border-radius: 5px ;
+    margin: 10px auto;
+}
